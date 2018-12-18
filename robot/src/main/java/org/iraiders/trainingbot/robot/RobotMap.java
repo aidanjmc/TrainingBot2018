@@ -7,6 +7,7 @@ package org.iraiders.trainingbot.robot;
  * floating around.
  */
 public class RobotMap {
+public static final boolean DEBUG = true;
 	// For example to map the left and right motors, you could define the
 	// following variables to use with your drivetrain subsystem.
 	// public static int leftMotor = 1;
@@ -16,4 +17,9 @@ public class RobotMap {
 	// number and the module. For example you with a rangefinder:
 	// public static int rangefinderPort = 1;
 	// public static int rangefinderModule = 1;
+  public static int frontLeftTalonPort = 2;
+  public static int frontRightTalonPort = 1;
+  public static int backLeftTalonPort = 4;
+  public static int backRightTalonPort = 3;
+
 }
